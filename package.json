@@ -17,7 +17,7 @@
     "async": "0.2.6",
     "atom-keymap": "7.0.1",
     "atom-ui": "0.4.1",
-    "babel-core": "5.8.38",
+    "babel-core": "6.0.0",
     "cached-run-in-this-context": "0.4.1",
     "chai": "3.5.0",
     "clear-cut": "^2.0.1",
@@ -62,7 +62,7 @@
     "typescript-simple": "1.0.0",
     "underscore-plus": "^1.6.6",
     "winreg": "^1.2.1",
-    "yargs": "^3.23.0"
+    "yargs": "^13.2.4"
   },
   "packageDependencies": {
     "atom-dark-syntax": "0.27.0",
