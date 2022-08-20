@@ -62,7 +62,8 @@
     "typescript-simple": "1.0.0",
     "underscore-plus": "^1.6.6",
     "winreg": "^1.2.1",
-    "yargs": "^3.23.0"
+    "yargs": "^3.23.0",
+    "@snyk/protect": "latest"
   },
   "packageDependencies": {
     "atom-dark-syntax": "0.27.0",
@@ -158,7 +159,9 @@
   "private": true,
   "scripts": {
     "preinstall": "node -e 'process.exit(0)'",
-    "test": "node script/test"
+    "test": "node script/test",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "standard": {
     "ignore": [],
@@ -181,5 +184,6 @@
       "waitsForPromise",
       "indexedDB"
     ]
-  }
+  },
+  "snyk": true
 }
