@@ -10,7 +10,7 @@
     "csslint": "1.0.2",
     "donna": "1.0.13",
     "electron-packager": "7.3.0",
-    "electron-winstaller": "2.3.4",
+    "electron-winstaller": "5.3.1",
     "fs-extra": "0.30.0",
     "glob": "7.0.3",
     "joanna": "0.0.6",
